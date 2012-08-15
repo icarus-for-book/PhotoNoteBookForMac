@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A456EBC15D607AD007AFBFB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A456EBB15D607AD007AFBFB /* Cocoa.framework */; };
+		3A456EC615D607AD007AFBFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A456EC415D607AD007AFBFB /* InfoPlist.strings */; };
+		3A456EC815D607AD007AFBFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456EC715D607AD007AFBFB /* main.m */; };
+		3A456ECC15D607AD007AFBFB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3A456ECA15D607AD007AFBFB /* Credits.rtf */; };
+		3A456ECF15D607AD007AFBFB /* PNBDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456ECE15D607AD007AFBFB /* PNBDocument.m */; };
+		3A456ED215D607AD007AFBFB /* PNBDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A456ED015D607AD007AFBFB /* PNBDocument.xib */; };
+		3A456ED515D607AD007AFBFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A456ED315D607AD007AFBFB /* MainMenu.xib */; };
+		3A456EDD15D607AE007AFBFB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A456EDC15D607AE007AFBFB /* SenTestingKit.framework */; };
+		3A456EDE15D607AE007AFBFB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A456EBB15D607AD007AFBFB /* Cocoa.framework */; };
+		3A456EE615D607AE007AFBFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A456EE415D607AE007AFBFB /* InfoPlist.strings */; };
+		3A456EE915D607AE007AFBFB /* PhotoNoteBookForMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456EE815D607AE007AFBFB /* PhotoNoteBookForMacTests.m */; };
+		3A456F0115D6091E007AFBFB /* PNBNoteMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456EFC15D6091D007AFBFB /* PNBNoteMetadata.m */; };
+		3A456F0215D6091E007AFBFB /* PNBNoteMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456EFC15D6091D007AFBFB /* PNBNoteMetadata.m */; };
+		3A456F0315D6091E007AFBFB /* PNBPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456EFE15D6091D007AFBFB /* PNBPage.m */; };
+		3A456F0415D6091E007AFBFB /* PNBPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456EFE15D6091D007AFBFB /* PNBPage.m */; };
+		3A456F0B15D60928007AFBFB /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456F0615D60928007AFBFB /* NSDate+Format.m */; };
+		3A456F0C15D60928007AFBFB /* NSDate+Format.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456F0615D60928007AFBFB /* NSDate+Format.m */; };
+		3A456F0F15D60928007AFBFB /* NSImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456F0A15D60928007AFBFB /* NSImage+Resize.m */; };
+		3A456F1015D60928007AFBFB /* NSImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A456F0A15D60928007AFBFB /* NSImage+Resize.m */; };
+		3A685D9615D7188C00C9E6C0 /* note.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3A685D9515D7188C00C9E6C0 /* note.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A456EDF15D607AE007AFBFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A456EAE15D607AD007AFBFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A456EB615D607AD007AFBFB;
+			remoteInfo = PhotoNoteBookForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A456EB715D607AD007AFBFB /* PhotoNoteBookForMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoNoteBookForMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A456EBB15D607AD007AFBFB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3A456EBE15D607AD007AFBFB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3A456EBF15D607AD007AFBFB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3A456EC015D607AD007AFBFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A456EC315D607AD007AFBFB /* PhotoNoteBookForMac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoNoteBookForMac-Info.plist"; sourceTree = "<group>"; };
+		3A456EC515D607AD007AFBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A456EC715D607AD007AFBFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A456EC915D607AD007AFBFB /* PhotoNoteBookForMac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoNoteBookForMac-Prefix.pch"; sourceTree = "<group>"; };
+		3A456ECB15D607AD007AFBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3A456ECD15D607AD007AFBFB /* PNBDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNBDocument.h; sourceTree = "<group>"; };
+		3A456ECE15D607AD007AFBFB /* PNBDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNBDocument.m; sourceTree = "<group>"; };
+		3A456ED115D607AD007AFBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PNBDocument.xib; sourceTree = "<group>"; };
+		3A456ED415D607AD007AFBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3A456EDB15D607AE007AFBFB /* PhotoNoteBookForMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoNoteBookForMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A456EDC15D607AE007AFBFB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3A456EE315D607AE007AFBFB /* PhotoNoteBookForMacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoNoteBookForMacTests-Info.plist"; sourceTree = "<group>"; };
+		3A456EE515D607AE007AFBFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A456EE715D607AE007AFBFB /* PhotoNoteBookForMacTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoNoteBookForMacTests.h; sourceTree = "<group>"; };
+		3A456EE815D607AE007AFBFB /* PhotoNoteBookForMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoNoteBookForMacTests.m; sourceTree = "<group>"; };
+		3A456EF215D607C4007AFBFB /* PhotoNoteBookForMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PhotoNoteBookForMac.entitlements; sourceTree = "<group>"; };
+		3A456EFB15D6091D007AFBFB /* PNBNoteMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBNoteMetadata.h; sourceTree = "<group>"; };
+		3A456EFC15D6091D007AFBFB /* PNBNoteMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBNoteMetadata.m; sourceTree = "<group>"; };
+		3A456EFD15D6091D007AFBFB /* PNBPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBPage.h; sourceTree = "<group>"; };
+		3A456EFE15D6091D007AFBFB /* PNBPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBPage.m; sourceTree = "<group>"; };
+		3A456F0515D60928007AFBFB /* NSDate+Format.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Format.h"; sourceTree = "<group>"; };
+		3A456F0615D60928007AFBFB /* NSDate+Format.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Format.m"; sourceTree = "<group>"; };
+		3A456F0915D60928007AFBFB /* NSImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Resize.h"; sourceTree = "<group>"; };
+		3A456F0A15D60928007AFBFB /* NSImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Resize.m"; sourceTree = "<group>"; };
+		3A685D9515D7188C00C9E6C0 /* note.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = note.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A456EB415D607AD007AFBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A456EBC15D607AD007AFBFB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A456ED715D607AE007AFBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A456EDD15D607AE007AFBFB /* SenTestingKit.framework in Frameworks */,
+				3A456EDE15D607AE007AFBFB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A456EAC15D607AD007AFBFB = {
+			isa = PBXGroup;
+			children = (
+				3A685D9515D7188C00C9E6C0 /* note.icns */,
+				3A456EC115D607AD007AFBFB /* PhotoNoteBookForMac */,
+				3A456EE115D607AE007AFBFB /* PhotoNoteBookForMacTests */,
+				3A456EBA15D607AD007AFBFB /* Frameworks */,
+				3A456EB815D607AD007AFBFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A456EB815D607AD007AFBFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A456EB715D607AD007AFBFB /* PhotoNoteBookForMac.app */,
+				3A456EDB15D607AE007AFBFB /* PhotoNoteBookForMacTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A456EBA15D607AD007AFBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A456EBB15D607AD007AFBFB /* Cocoa.framework */,
+				3A456EDC15D607AE007AFBFB /* SenTestingKit.framework */,
+				3A456EBD15D607AD007AFBFB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A456EBD15D607AD007AFBFB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A456EBE15D607AD007AFBFB /* AppKit.framework */,
+				3A456EBF15D607AD007AFBFB /* CoreData.framework */,
+				3A456EC015D607AD007AFBFB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3A456EC115D607AD007AFBFB /* PhotoNoteBookForMac */ = {
+			isa = PBXGroup;
+			children = (
+				3A456EF815D60913007AFBFB /* Model */,
+				3A456EF715D6090E007AFBFB /* Util */,
+				3A456EF215D607C4007AFBFB /* PhotoNoteBookForMac.entitlements */,
+				3A456ECD15D607AD007AFBFB /* PNBDocument.h */,
+				3A456ECE15D607AD007AFBFB /* PNBDocument.m */,
+				3A456ED015D607AD007AFBFB /* PNBDocument.xib */,
+				3A456ED315D607AD007AFBFB /* MainMenu.xib */,
+				3A456EC215D607AD007AFBFB /* Supporting Files */,
+			);
+			path = PhotoNoteBookForMac;
+			sourceTree = "<group>";
+		};
+		3A456EC215D607AD007AFBFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A456EC315D607AD007AFBFB /* PhotoNoteBookForMac-Info.plist */,
+				3A456EC415D607AD007AFBFB /* InfoPlist.strings */,
+				3A456EC715D607AD007AFBFB /* main.m */,
+				3A456EC915D607AD007AFBFB /* PhotoNoteBookForMac-Prefix.pch */,
+				3A456ECA15D607AD007AFBFB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A456EE115D607AE007AFBFB /* PhotoNoteBookForMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A456EE715D607AE007AFBFB /* PhotoNoteBookForMacTests.h */,
+				3A456EE815D607AE007AFBFB /* PhotoNoteBookForMacTests.m */,
+				3A456EE215D607AE007AFBFB /* Supporting Files */,
+			);
+			path = PhotoNoteBookForMacTests;
+			sourceTree = "<group>";
+		};
+		3A456EE215D607AE007AFBFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A456EE315D607AE007AFBFB /* PhotoNoteBookForMacTests-Info.plist */,
+				3A456EE415D607AE007AFBFB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A456EF715D6090E007AFBFB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3A456F0515D60928007AFBFB /* NSDate+Format.h */,
+				3A456F0615D60928007AFBFB /* NSDate+Format.m */,
+				3A456F0915D60928007AFBFB /* NSImage+Resize.h */,
+				3A456F0A15D60928007AFBFB /* NSImage+Resize.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		3A456EF815D60913007AFBFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A456EFB15D6091D007AFBFB /* PNBNoteMetadata.h */,
+				3A456EFC15D6091D007AFBFB /* PNBNoteMetadata.m */,
+				3A456EFD15D6091D007AFBFB /* PNBPage.h */,
+				3A456EFE15D6091D007AFBFB /* PNBPage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A456EB615D607AD007AFBFB /* PhotoNoteBookForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A456EEC15D607AE007AFBFB /* Build configuration list for PBXNativeTarget "PhotoNoteBookForMac" */;
+			buildPhases = (
+				3A456EB315D607AD007AFBFB /* Sources */,
+				3A456EB415D607AD007AFBFB /* Frameworks */,
+				3A456EB515D607AD007AFBFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoNoteBookForMac;
+			productName = PhotoNoteBookForMac;
+			productReference = 3A456EB715D607AD007AFBFB /* PhotoNoteBookForMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A456EDA15D607AE007AFBFB /* PhotoNoteBookForMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A456EEF15D607AE007AFBFB /* Build configuration list for PBXNativeTarget "PhotoNoteBookForMacTests" */;
+			buildPhases = (
+				3A456ED615D607AE007AFBFB /* Sources */,
+				3A456ED715D607AE007AFBFB /* Frameworks */,
+				3A456ED815D607AE007AFBFB /* Resources */,
+				3A456ED915D607AE007AFBFB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A456EE015D607AE007AFBFB /* PBXTargetDependency */,
+			);
+			name = PhotoNoteBookForMacTests;
+			productName = PhotoNoteBookForMacTests;
+			productReference = 3A456EDB15D607AE007AFBFB /* PhotoNoteBookForMacTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A456EAE15D607AD007AFBFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PNB;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = jinni;
+			};
+			buildConfigurationList = 3A456EB115D607AD007AFBFB /* Build configuration list for PBXProject "PhotoNoteBookForMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A456EAC15D607AD007AFBFB;
+			productRefGroup = 3A456EB815D607AD007AFBFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A456EB615D607AD007AFBFB /* PhotoNoteBookForMac */,
+				3A456EDA15D607AE007AFBFB /* PhotoNoteBookForMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A456EB515D607AD007AFBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A456EC615D607AD007AFBFB /* InfoPlist.strings in Resources */,
+				3A456ECC15D607AD007AFBFB /* Credits.rtf in Resources */,
+				3A456ED215D607AD007AFBFB /* PNBDocument.xib in Resources */,
+				3A456ED515D607AD007AFBFB /* MainMenu.xib in Resources */,
+				3A685D9615D7188C00C9E6C0 /* note.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A456ED815D607AE007AFBFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A456EE615D607AE007AFBFB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A456ED915D607AE007AFBFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A456EB315D607AD007AFBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A456EC815D607AD007AFBFB /* main.m in Sources */,
+				3A456ECF15D607AD007AFBFB /* PNBDocument.m in Sources */,
+				3A456F0115D6091E007AFBFB /* PNBNoteMetadata.m in Sources */,
+				3A456F0315D6091E007AFBFB /* PNBPage.m in Sources */,
+				3A456F0B15D60928007AFBFB /* NSDate+Format.m in Sources */,
+				3A456F0F15D60928007AFBFB /* NSImage+Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A456ED615D607AE007AFBFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A456EE915D607AE007AFBFB /* PhotoNoteBookForMacTests.m in Sources */,
+				3A456F0215D6091E007AFBFB /* PNBNoteMetadata.m in Sources */,
+				3A456F0415D6091E007AFBFB /* PNBPage.m in Sources */,
+				3A456F0C15D60928007AFBFB /* NSDate+Format.m in Sources */,
+				3A456F1015D60928007AFBFB /* NSImage+Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A456EE015D607AE007AFBFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A456EB615D607AD007AFBFB /* PhotoNoteBookForMac */;
+			targetProxy = 3A456EDF15D607AE007AFBFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A456EC415D607AD007AFBFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A456EC515D607AD007AFBFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A456ECA15D607AD007AFBFB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A456ECB15D607AD007AFBFB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3A456ED015D607AD007AFBFB /* PNBDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A456ED115D607AD007AFBFB /* en */,
+			);
+			name = PNBDocument.xib;
+			sourceTree = "<group>";
+		};
+		3A456ED315D607AD007AFBFB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A456ED415D607AD007AFBFB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3A456EE415D607AE007AFBFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A456EE515D607AE007AFBFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A456EEA15D607AE007AFBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3A456EEB15D607AE007AFBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3A456EED15D607AE007AFBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoNoteBookForMac/PhotoNoteBookForMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer: Jaekyu Choi (8S83C42TE3)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoNoteBookForMac/PhotoNoteBookForMac-Prefix.pch";
+				INFOPLIST_FILE = "PhotoNoteBookForMac/PhotoNoteBookForMac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "949FD82C-CC50-4F38-82F0-979957C16981";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A456EEE15D607AE007AFBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PhotoNoteBookForMac/PhotoNoteBookForMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer: Jaekyu Choi (8S83C42TE3)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoNoteBookForMac/PhotoNoteBookForMac-Prefix.pch";
+				INFOPLIST_FILE = "PhotoNoteBookForMac/PhotoNoteBookForMac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "949FD82C-CC50-4F38-82F0-979957C16981";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3A456EF015D607AE007AFBFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoNoteBookForMac.app/Contents/MacOS/PhotoNoteBookForMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoNoteBookForMac/PhotoNoteBookForMac-Prefix.pch";
+				INFOPLIST_FILE = "PhotoNoteBookForMacTests/PhotoNoteBookForMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3A456EF115D607AE007AFBFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoNoteBookForMac.app/Contents/MacOS/PhotoNoteBookForMac";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoNoteBookForMac/PhotoNoteBookForMac-Prefix.pch";
+				INFOPLIST_FILE = "PhotoNoteBookForMacTests/PhotoNoteBookForMacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A456EB115D607AD007AFBFB /* Build configuration list for PBXProject "PhotoNoteBookForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A456EEA15D607AE007AFBFB /* Debug */,
+				3A456EEB15D607AE007AFBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A456EEC15D607AE007AFBFB /* Build configuration list for PBXNativeTarget "PhotoNoteBookForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A456EED15D607AE007AFBFB /* Debug */,
+				3A456EEE15D607AE007AFBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A456EEF15D607AE007AFBFB /* Build configuration list for PBXNativeTarget "PhotoNoteBookForMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A456EF015D607AE007AFBFB /* Debug */,
+				3A456EF115D607AE007AFBFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A456EAE15D607AD007AFBFB /* Project object */;
+}
